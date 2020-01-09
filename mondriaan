@@ -1,0 +1,31 @@
+function setup() {
+  // put setup code here
+
+  createCanvas(600,750);
+  background(240);
+}
+
+function draw() {
+  // put drawing code here
+
+  strokeWeight(10)
+line(0,30,600,30)
+
+line(30,0,30,750)
+
+line(300,0,300,750)
+
+line(430,0,430,750)
+
+line(550,0,550,750)
+
+line(0,250,600,250)
+
+line(0,450,600,450)
+
+line(0,500,600,500)
+
+line(430,600,600,600)
+
+line(300,700,600,700)
+}
